@@ -7,7 +7,7 @@
 Penny consists of three main components:
 
 - **KV Thermometer**:  
-  This component classifies key-value requests into four categories: **hot, cold, deterministic-gray, and nondeterministic-gray**, based on the characteristics of each key-value type, as detailed in Table~\ref{table_types}.  
+  This component classifies key-value requests into four categories: **hot, cold, deterministic-gray, and nondeterministic-gray**, based on the characteristics of each key-value type.  
   The classifications by KV Thermometer serve as indicators for fine-grained data placement policies.  
   To reduce SSD storage usage, **nondeterministic-gray data** is treated as cold data and stored accordingly.
 
